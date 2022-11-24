@@ -218,14 +218,27 @@ main section .img-section img{
 
 
 .banner{
-    width: 1065px;
+    background-color: #3c4043;
     overflow: hidden;
     margin: 80px auto;
-    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
 }
 
-.banner img{
+.banner div{
+    margin-left: 22%;
     width: 100%;
+}
+
+
+.banner img{
+    
+    border-radius: 10px;
+    width: 55%;
     transition: .5s  all ease-in-out;
     box-shadow:  15px 15px 0 rgb(0 0 0 / 28%);
     opacity: 0.9;
@@ -236,8 +249,19 @@ main section .img-section img{
 }
 
 
+.video{
+    
+    margin: 80px 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+}
 
+.vid{
+    margin: 0 auto;
+}
 
 
 footer{
